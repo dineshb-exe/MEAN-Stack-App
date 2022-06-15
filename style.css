@@ -1,0 +1,54 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, rgba(0, 76, 255, 0.479), rgb(0, 123, 255));
+	color: #251c09;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+header{
+    background-color:#5fcbf6;
+	padding-left: 140px;
+    padding-top: 20px;
+	color:#0A5E7F;
+	height: 175px;
+    border-bottom-right-radius: 70%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+section{
+    background-image: repeating-radial-gradient( rgba(0, 140, 255, 0.836), rgb(85, 0, 255));
+    padding: 40px;
+    padding-top: 90px;
+    border-radius: 10px;
+}
+.sec1{
+    background-image: repeating-radial-gradient( rgba(0, 140, 255, 0.836), rgb(85, 0, 255));
+    height: 250px;
+    padding: 40px;
+    padding-top: 90px;
+    border-radius: 10px;
+    border-top-left-radius: 30%;
+}
+.sec2{
+    height: 100px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    height: 40px;
+    width: 75px;
+    border-color: rebeccapurple;
+    border-bottom-left-radius: 10px;
+    background-color: rebeccapurple;
+    color: seashell;
+}
+button:hover{
+    background-color: slateblue;
+}
